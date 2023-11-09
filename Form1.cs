@@ -30,6 +30,7 @@ namespace CircleDrawingApp
 
             // Calculate the distance between mouse pointer and circle center
             // Lägg till koden som behövs.
+            // Denna funktion beräknar längden på vektorn mellan cirkelns mitt och musen. Detta är nödvändigt för att avgöra ifall vektorn är närmre cirkelns mitt än radien. // Karl Lindström
             double distance = Math.Sqrt(Math.Pow(mouseX - circleCenterX,2) + Math.Pow(mouseY - circleCenterY,2));
 
             // Change circle color based on mouse position
